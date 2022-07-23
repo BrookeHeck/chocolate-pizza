@@ -164,3 +164,45 @@ h3 {
   font-weight: 700;
   margin-bottom: .4em;
 }
+
+footer {
+  margin: 4em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+footer hr {
+  display: inline;
+  flex-grow: 1;
+  height: .01px;
+  background-color: lightslategray;
+}
+
+footer img {
+  margin: 0 .7em;
+}
+
+footer p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 200;
+  color: lightslategray;
+  font-size: .8em;
+}
+
+footer p:nth-of-type(1) {
+  margin-top: .75em;
+  margin-bottom: .1em;
+}
+
+footer p:nth-of-type(2) {
+  margin-top: .1em;
+  margin-bottom: .75em;
+}
