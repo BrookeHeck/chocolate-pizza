@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
-  width: 80%
+  width: 901px;
 }
 
 img {
@@ -159,6 +159,10 @@ main section section p {
   margin: .4em .5em;
 }
 
+#author p {
+  font-size: 1.1em;
+}
+
 h3 {
   font-size: 1.5em;
   font-weight: 700;
@@ -205,4 +209,10 @@ footer p:nth-of-type(1) {
 footer p:nth-of-type(2) {
   margin-top: .1em;
   margin-bottom: .75em;
+}
+
+.border {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
 }
