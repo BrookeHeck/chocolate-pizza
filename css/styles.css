@@ -1,0 +1,166 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80%
+}
+
+img {
+  width: fit-content;
+  height: fit-content;
+}
+
+header {
+  width: 100%;
+  margin-top: 1em;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+nav img {
+  float: left;
+}
+
+nav>* {
+  margin: .3em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+nav ul li {
+  margin: .05em;
+}
+
+nav ul li:nth-of-type(6) {
+  margin-right: 1em;;
+}
+
+h1 {
+  font-family: 'Rouge Script', cursive;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+nav p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main>section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+main:nth-child(2) {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+main section section p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#print {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+}
+
+#print>* {
+  margin: .2em;
+}
+
+#directions {
+  display: flex;
+  flex-direction: column;
+}
+
+#directions p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.4em;
+  line-height: 1.4em;
+}
+
+#list {
+  position: relative;
+  text-align: center;
+}
+
+#list section:nth-of-type(1) {
+  position: absolute;
+  width: 50%;
+}
+
+#list>section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#list>section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#list>section ul div {
+  width: .6em;
+  height: .6em;
+  border: solid black .1px;
+  border-radius: 4px;
+}
+
+#author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#author button {
+  height: fit-content;
+  padding: 1em .6em;
+  color: white;
+  background-color: #E04513;
+  border: #E04513;
+}
+
+#author section {
+  width: 66%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.4em;
+  line-height: 1.4em;
+  margin: .4em .5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: .4em;
+}
